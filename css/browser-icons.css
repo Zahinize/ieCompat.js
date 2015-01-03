@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'browser-icons';
+  src: url('fonts/browser-icons.eot?5291839');
+  src: url('fonts/browser-icons.eot?5291839#iefix') format('embedded-opentype'),
+       url('fonts/browser-icons.woff?5291839') format('woff'),
+       url('fonts/browser-icons.ttf?5291839') format('truetype'),
+       url('fonts/browser-icons.svg?5291839#browser-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+ [class^="icon-bwsr-"]:before, [class*=" icon-bwsr-"]:before {
+  font-family: "browser-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-bwsr-firefox:before { color: #4d4e53; content: '\e800'; } /* '' */
+.icon-bwsr-chrome:before { color: #f4b400; content: '\e801'; } /* '' */
+.icon-bwsr-opera:before { color: #cc0f16; content: '\e802'; } /* '' */
+.icon-bwsr-ie:before { color: #00a1f1; content: '\e803'; } /* '' */
