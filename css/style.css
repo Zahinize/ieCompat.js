@@ -701,6 +701,7 @@
 	position: absolute;
 	top: 40%;
 	width: 10px;
+	z-index: 10
 }
 .icons-xl.icon-bwsr-ie:before {
 	line-height: 0;
