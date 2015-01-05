@@ -80,6 +80,7 @@
 	#reel 
 	{
 		position: relative;
+		z-index: 100;
 	}
 
 		#reel .item
